@@ -180,6 +180,151 @@ for i in v: print(i)
 
 print(dict[2])                              #printing defined value of dict
 
+
+########################################################################################################
+
+    #Aithmetic Operations
+
+    a,b=10,5                             
+
+    print('Addition:',a+b)                   #Addition          
+    print('subtraction',a-b)
+    print('mul',a*b)
+    print('div',a/b)
+    print('Mod',a%b)
+    print('pow',a**b)
+    print('floor Div', a//b)
+
+
+    #Assingment Operator
+
+
+    = a=10 #means  a=x+y #Assing 10 to a
+    += a+=b #means a=a+b 
+
+    #example
+     
+     a=b=c=20
+     print(a,b,c)
+
+     x,y=15,25
+
+     x+=y
+
+
+     x*=y
+     print(x)
+
+
+
+#Comparison operator
+
+
+x,y=15,25
+
+print(x==y)
+print(x<y)
+print(x>y)
+print(x>=y)
+print(x<=y)
+
+
+
+print(x!=y)
+
+
+#Logical Operator
+
+x,y=15,25
+
+print(x==15 and y==25)
+print((x==35 or y==25))
+
+#Print and input command
+
+print("akshay \n kumar")
+print("hello"*3)
+
+
+a,b=10,20
+print(a,b,sep='++++')
+
+#print editing
+
+name="Akshay"
+marks=66.33
+
+print("name is",name, "number are,marks")
+print("name is %s, Marks are %.2f "%(name,marks))
+print('name is {}, Marks are {}'.format(name,marks))
+
+#Input 
+s1=input()
+
+print(s1)
+
+s=input("input your name")
+
+print(s)
+
+i=int(input("int number"))
+
+print(i)
+
+print(type(i))   #data type
+
+#spliting the string
+
+lst= {x for x in input("akshaykumar aaja:").split()}
+print(lst)
+
+lst= {int(x) for x in input("akshaykumar aaja:").split('')}  #to chanege the input data type
+
+###########################################################################
+
+#small student id program
+
+rd =int(input('student id'))
+name = input('name you have')
+marks = float (input('numbers you got'))
+
+print('1234',rd,'name',name,'marks',marks)
+
+#average of three numbers
+x,y,z = [int (x) for x in input ('enter three numbers: ').split()]
+average =  (a+b+c)/3
+print('average of your given inputs:', average)
+
+#area of circle
+
+r= float (input('area is: '))
+pi=22/7
+area=pi*r**2                         #logical part
+print(area)
+
+#importing math module
+
+import math                            #math module is imported
+
+r= float (input('area is: '))
+
+area=math.pi*r**2                     #math module is used instead of declaring pi
+
+print(area)
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
     
   
 
