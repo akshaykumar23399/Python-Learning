@@ -312,6 +312,54 @@ area=math.pi*r**2                     #math module is used instead of declaring 
 
 print(area)
 
+######EVEN And ODD
+
+x = int(input("Enter a Number: "))
+if x%2 == 0 :
+    print(x," is even ")
+    
+else:
+    print(x, " is odd ")
+    
+####################ELSE AND ELIF CONDITIONS
+
+x = int(input("Enter a Number: "))
+
+if x == 0:
+    print(x, " ya its zero")
+elif x%2 == 0 :
+    print(x," is even ")
+    
+  #################################Grading system
+
+maths = int(input("Enter your Maths marks : "))
+physics = int(input("Enter your Physics marks : "))
+chemistry = int(input("Enter your Chemistry marks : "))
+lst=[maths,physics,chemistry]
+if (maths<35):
+    print("You failed. Butter luck next time ")
+    
+elif (physics<35):
+    print("You failed. Butter luck next time ")
+    
+elif (chemistry<35):
+    print("You failed. Butter luck next time ")
+    
+else :
+    print("You cleared the exams")
+    
+average=(maths+physics+chemistry)/3
+if (average<=59):
+    print("Grade C")
+    
+elif (average<=69):
+    print("Grade B")
+    
+elif (average<=79):
+    print("Grade A")
+    
+    
+
 
 
 
