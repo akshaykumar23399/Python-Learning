@@ -358,6 +358,63 @@ elif (average<=69):
 elif (average<=79):
     print("Grade A")
     
+#####################RAnge
+for a in range(50,71):
+    print(a)
+    
+    ###RAnge With given Diffrence 
+    for a in range(50,71,5):
+    print(a)
+    
+    
+    ############Product of numbers
+    
+lst=[1,2,3,4,5,6]
+product=1
+
+for x in lst:
+    product*=x
+    print(product, "this is prod : ")
+    
+    #########Maths Tabel in python
+    a = int(input("Give me a number"))
+
+for x in range(1,11):
+    print(a, 'X', x,'=',x*a).
+    
+    #Simple Form multiplication
+    a = int(input("Give me a number"))
+
+for x in range(1,11):
+    print(x*a).
+    
+    ######Break The loop
+    lst=[3,6,9,12,17,18,21]
+
+for i in lst:
+    if(i==17):
+        break
+    print(i)
+    
+    ##########Print the multiple and remove multiple of 3 from it
+    a=0
+while a<=20:
+    a+=1
+    if a  % 3 == 0:
+        continue
+    print(a)
+    
+    #######Asert
+    a =int(input("enter a number greater than 10 : "))
+
+assert a>=10, 'Wrong number'
+
+print('The number', a)
+
+
+
+    
+    
     
 
 
